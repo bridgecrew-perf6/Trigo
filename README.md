@@ -3,7 +3,7 @@ My solution includes using kubernetes as a base, or more specfically a deploymen
 I use a configmap with nginx configuration as a pseudo "service" for services 'a' and 'b'.
 I load the main config and prod/dev configs separately and concatenate their contents using nginx's SSI (Server Side Includes).
 
-Attached is the yaml file including all components of the deployment I managed to create.
+Attached is the yaml file including all components of the incomplete deployment I managed to create during the alotted time.
 
 ### Stage 2.1:
 Write/describe a process for rolling an update of a new app version, and deploying it to dev and then to prod.
