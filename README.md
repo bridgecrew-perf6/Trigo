@@ -5,7 +5,7 @@ I load the main config and prod/dev configs separately and concatenate their con
 
 Attached is the yaml file including all components of the deployment I managed to create.
 
-### Stage 2:
+### Stage 2.1:
 1. Write/describe a process for rolling an update of a new app version, and deploying it to dev and then to prod
 
 0. Dev pushes local commits to remote
@@ -28,7 +28,8 @@ Attached is the yaml file including all components of the deployment I managed t
 
 
 
-2. Write/describe a process for deployment of a configuration update (one of the values in the config file), which should trigger a restart of the app and result an update of the service response
+### Stage 2.2:
+Write/describe a process for deployment of a configuration update (one of the values in the config file), which should trigger a restart of the app and result an update of the service response
 
 1. Run the command
 kubectl apply -f https://raw.githubusercontent.com/stakater/Reloader/master/deployments/kubernetes/reloader.yaml
