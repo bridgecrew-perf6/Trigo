@@ -6,7 +6,7 @@ I load the main config and prod/dev configs separately and concatenate their con
 Attached is the yaml file including all components of the deployment I managed to create.
 
 ### Stage 2.1:
-1. Write/describe a process for rolling an update of a new app version, and deploying it to dev and then to prod
+Write/describe a process for rolling an update of a new app version, and deploying it to dev and then to prod
 
 0. Dev pushes local commits to remote
 1. Dev initiates Pull Request (after code review) into dev branch
